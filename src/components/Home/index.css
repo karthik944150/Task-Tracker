@@ -1,0 +1,175 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-section {
+  display: flex;
+}
+
+.website-logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.website-name {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.website-docs {
+  color: rgb(145, 204, 250);
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.underline {
+  color: black;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .website-name {
+    font-size: 18px;
+  }
+  .website-docs {
+    margin-right: 20px;
+  }
+}
+
+.body-section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .body-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    margin-bottom: 40px;
+  }
+}
+
+.input-element {
+  width: 70%;
+  padding: 8px;
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .input-element {
+    margin-bottom: 40px;
+  }
+}
+
+.showing-webpages-section {
+}
+
+@media screen and (min-width: 768px) {
+  .showing-webpages-section {
+    width: 70%;
+  }
+}
+.analyzer-button {
+  margin-left: 5px;
+  background-color: rgb(43, 106, 224);
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+}
+
+.making-webpages-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.making-web-pages-header {
+  color: black;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.making-web-pages-content-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .making-web-pages-content-section {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.detail-name {
+  color: rgb(57, 126, 236);
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.errorMsg {
+  color: red;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.more-page-insights-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .more-page-insights-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.page-insights {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.insight-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: rgb(30, 28, 28);
+}
