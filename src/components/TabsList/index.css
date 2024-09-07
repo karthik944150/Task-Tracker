@@ -1,0 +1,29 @@
+.tab-button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.active-tab-btn {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
