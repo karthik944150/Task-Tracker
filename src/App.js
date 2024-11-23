@@ -1,6 +1,6 @@
-import UsersDetails from './components/UsersDetails'
+import TaskTracker from './components/TaskTracker'
 import './App.css'
 
-const App = () => <UsersDetails />
+const App = () => <TaskTracker />
 
 export default App
